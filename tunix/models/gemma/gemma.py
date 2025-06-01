@@ -17,7 +17,8 @@
 from collections.abc import Iterable
 import dataclasses
 import enum
-from typing import Any, Callable, Self, Tuple
+from typing import Any, Callable, Tuple
+from typing_extensions import Self
 import flax
 from flax import nnx
 import jax
